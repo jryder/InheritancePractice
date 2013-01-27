@@ -15,5 +15,7 @@ public class HourlyEmployee extends Employee {
 
     public void setHourlyRate(double hourlyRate) {
         this.hourlyRate = hourlyRate;
+        
+        
     }
 }
