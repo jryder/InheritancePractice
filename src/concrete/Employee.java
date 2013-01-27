@@ -25,12 +25,12 @@ public class Employee {
     }
 
     public String getFullName() {
-        return FirstName + " " + LastName;
+        return this.FirstName + " " + this.LastName;
     }    
     
     
     public String getDepartment() {
-        return Department;
+        return this.Department;
     }
 
     public void setDepartment(String Department) {
@@ -38,7 +38,7 @@ public class Employee {
     }
 
     public int getAge() {
-        return Age;
+        return this.Age;
     }
 
     public void setAge(int Age) {
