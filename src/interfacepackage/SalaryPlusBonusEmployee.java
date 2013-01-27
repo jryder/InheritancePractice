@@ -1,5 +1,5 @@
 
-package concrete;
+package interfacepackage;
 
 /**
  *
@@ -14,5 +14,6 @@ public class SalaryPlusBonusEmployee extends SalariedEmployee{
 
     public void setAnnualBonus(double AnnualBonus) {
         this.AnnualBonus = AnnualBonus;
-    }
+    }    
+    
 }

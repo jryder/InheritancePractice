@@ -1,13 +1,22 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
+
+
 package concrete;
 
 /**
  *
- * @author jorda_000
+ * @author Jordan Ryder
  */
-public class SalariedEmployee {
+public class SalariedEmployee extends Employee  {
+    
+    double salary;
+
+    public double getSalary() {
+        return salary;
+    }
+
+    public void setSalary(double salary) {
+        this.salary = salary;
+    }
+    
     
 }

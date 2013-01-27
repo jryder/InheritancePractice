@@ -1,13 +1,19 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
+
+
 package concrete;
 
 /**
  *
- * @author jorda_000
+ * @author Jordan Ryder
  */
-public class HourlyEmployee {
-    
+public class HourlyEmployee extends Employee {
+    double hourlyRate;
+
+    public double getHourlyRate() {
+        return hourlyRate;
+    }
+
+    public void setHourlyRate(double hourlyRate) {
+        this.hourlyRate = hourlyRate;
+    }
 }
