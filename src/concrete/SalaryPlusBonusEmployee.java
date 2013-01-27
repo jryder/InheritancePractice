@@ -9,7 +9,7 @@ public class SalaryPlusBonusEmployee extends SalariedEmployee{
     double AnnualBonus;
 
     public double getAnnualBonus() {
-        return AnnualBonus;
+        return this.AnnualBonus;
     }
 
     public void setAnnualBonus(double AnnualBonus) {
