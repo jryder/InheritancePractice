@@ -40,7 +40,9 @@ public class SalariedEmployee implements Employee  {
         return lastName;
     }
     
-    
+      public String getFullName() {
+        return this.firstName + " " + this.lastName;
+    }        
     
     
 }

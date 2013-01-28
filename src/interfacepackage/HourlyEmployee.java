@@ -30,12 +30,13 @@ public class HourlyEmployee implements Employee {
         return firstName;
     }
 
-    @Override
-    public String getLastName() {
-        return lastName;
-    }
+
 
     public void setHourlyRate(double hourlyRate) {
         this.hourlyRate = hourlyRate;
     }
+      public String getFullName() {
+        return this.firstName + " " + this.lastName;
+    }      
+    
 }
